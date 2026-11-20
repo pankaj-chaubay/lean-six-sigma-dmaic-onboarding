@@ -1,0 +1,58 @@
+{
+  "capability_baseline": {
+    "mean": 15.71,
+    "median": 15.38,
+    "std": 4.5,
+    "ppk_normal": -0.05,
+    "ppk_percentile": -0.02,
+    "share_over_usl": 0.55,
+    "dpmo": 550000,
+    "sigma_level": 1.37,
+    "normality_p": 0.0
+  },
+  "capability_pilot": {
+    "mean": 9.85,
+    "median": 9.16,
+    "std": 3.33,
+    "ppk_normal": 0.51,
+    "ppk_percentile": 0.58,
+    "share_over_usl": 0.067,
+    "dpmo": 66667,
+    "sigma_level": 3.0,
+    "normality_p": 0.0083
+  },
+  "capability_control": {
+    "mean": 8.94,
+    "median": 8.7,
+    "std": 2.1,
+    "ppk_normal": 0.96,
+    "ppk_percentile": 0.97,
+    "share_over_usl": 0.017,
+    "dpmo": 16667,
+    "sigma_level": 3.63,
+    "normality_p": 0.0445
+  },
+  "comparison": {
+    "median_before": 15.4,
+    "median_after": 9.2,
+    "median_reduction_pct": 40.4,
+    "lead_time_p_value": "1.2e-18",
+    "std_before": 4.5,
+    "std_after": 3.3,
+    "variance_p_value": "6.4e-02",
+    "ready_day_one_before": 0.508,
+    "ready_day_one_after": 0.8,
+    "ready_p_value": "8.4e-05",
+    "pce_before": 0.141,
+    "pce_after": 0.212
+  },
+  "imr_limits": {
+    "center": 9.85,
+    "ucl": 18.16,
+    "lcl": 1.55,
+    "mr_bar": 3.12,
+    "mr_ucl": 10.2
+  },
+  "pce_baseline": 0.141,
+  "regression_r2": 0.255
+}
